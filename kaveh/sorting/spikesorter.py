@@ -49,7 +49,6 @@ class SimpleSpikeSorter:
         """
         Preliminary spike detection using a Gaussian Mixture Model
         """
-
         gmm = GaussianMixture(self.num_gmm_components,
                 covariance_type = 'tied').fit(self.voltage.reshape(-1,1))
         cluster_labels = gmm.predict(self.voltage.reshape(-1,1))
@@ -66,7 +65,6 @@ class SimpleSpikeSorter:
         """
         pre_index = int(np.round(self.pre_window / self.dt))
         post_index = int(np.round(self.post_window / self.dt))
-
         self.aligned_spikes = np.array([self.voltage[i - pre_index : i + post_index ] for i in self.spike_indices]) 
 
     # TODO
@@ -75,7 +73,6 @@ class SimpleSpikeSorter:
         Use the number of components that captures at least captured_variance of the spike waveforms
         """
         return 0
-
 
     def set_spike_window(self, pre_time, post_time):
         self.pre_window = pre_time
@@ -88,20 +85,15 @@ class SimpleSpikeSorter:
         spikes_avg = np.mean(self.aligned_spikes, axis = 0)
         spikes_std = np.std(self.aligned_spikes, axis = 0)
         x = np.arange(0,self.aligned_spikes.shape[1])
-
         plt.figure()
         l = plt.plot(x, spikes_avg, **kw)
-
         plt.fill_between(x, spikes_avg - spikes_std, spikes_avg + spikes_std, color=l[0].get_color(), alpha=0.25)
         
-
     def plot_spike_peaks(self, figsize=(21,5)):
         """
         Plots the voltage signal, overlaid by spike peak times,
         overlaid by lines indicating the window around the spike peaks
         """
-        
-
         plt.figure(figsize = figsize)
         plt.plot(self.voltage)
         plt.plot(self.spike_indices, self.voltage[self.spike_indices], '.r')
