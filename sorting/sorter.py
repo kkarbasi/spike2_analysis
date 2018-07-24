@@ -29,7 +29,7 @@ class SpikeDetector:
         self.filter_order = 2
         self.high_pass_filter_cutoff = 1000
         self.low_pass_filter_cutoff = 10000
-        self.zero_phase_filter = False
+        self.zero_phase_filter = True
         self.num_pdf_bins = 100
         self.minimum_time_between_events = 0.001  # 1 ms
         self.max_alignment_jitter = self.minimum_time_between_events / 2
@@ -83,10 +83,14 @@ class SpikeDetector:
                                                    btype='bandpass')
         if self.zero_phase_filter:
             # Filter the signal using a zero-phase filter
-            self.voltage = scipy.signal.lfilter(b, a, self.cs_voltage)  # Filter forwards
-            self.voltage = np.flipud(self.cs_voltage)
-            self.voltage = scipy.signal.lfilter(b, a, self.cs_voltage)  # Filter reverse
-            self.voltage = np.flipud(self.cs_voltage)
+#             self.voltage = scipy.signal.lfilter(b, a, self.cs_voltage)  # Filter forwards  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<original
+#             self.voltage = np.flipud(self.cs_voltage)
+#             self.voltage = scipy.signal.lfilter(b, a, self.cs_voltage)  # Filter reverse
+#             self.voltage = np.flipud(self.cs_voltage)
+            self.voltage = scipy.signal.lfilter(b, a, self.voltage)  # Filter forwards
+            self.voltage = np.flipud(self.voltage)
+            self.voltage = scipy.signal.lfilter(b, a, self.voltage)  # Filter reverse
+            self.voltage = np.flipud(self.voltage)
         else:
             self.voltage = scipy.signal.lfilter(b, a, self.voltage)
 
