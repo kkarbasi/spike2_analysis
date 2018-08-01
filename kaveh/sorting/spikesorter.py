@@ -59,6 +59,25 @@ class SimpleSpikeSorter:
         # Find peaks of each spike
         peak_times,_ = scipy.signal.find_peaks(self.voltage_filtered[all_spike_indices])
         self.spike_indices = all_spike_indices[peak_times]
+    
+    def _remove_overlapping_spike_windows(self):
+        """
+        Removes the spike indices that have overlapping alignment windows
+        """
+        to_delete = []
+
+        pre_index = int(np.round(self.pre_window / self.dt))
+        post_index = int(np.round(self.post_window / self.dt))
+
+        for i, spike_index in enumerate(self.spike_indices[1:]):
+            if (spike_index - pre_index) <=(self.spike_indices[i] + post_index):
+                to_delete = to_delete + [i]
+        mask = np.ones(self.spike_indices.shape, dtype=bool)
+        mask[to_delete] = False
+        no_overlap_spike_indices = self.spike_indices[mask]
+
+        return no_overlap_spike_indices
+
 
     def _align_spikes(self, use_filtered=False, to_exclude=[]):
         """
@@ -67,14 +86,17 @@ class SimpleSpikeSorter:
         """
         pre_index = int(np.round(self.pre_window / self.dt))
         post_index = int(np.round(self.post_window / self.dt))
+        spike_indices = self._remove_overlapping_spike_windows()
+
         if use_filtered:
             self.aligned_spikes = np.array([self.voltage_filtered[i - pre_index : i + post_index ] 
-                for i in self.spike_indices if i not in to_exclude and (i + post_index) <= self.voltage_filtered.size
+                for i in spike_indices if i not in to_exclude and (i + post_index) <= self.voltage_filtered.size
                     and (i - pre_index) >= 0])
         else:
             self.aligned_spikes = np.array([self.voltage[i - pre_index : i + post_index ] 
-                for i in self.spike_indices if i not in to_exclude and (i + post_index) <= self.voltage.size
+                for i in spike_indices if i not in to_exclude and (i + post_index) <= self.voltage.size
                     and (i - pre_index) >= 0])
+
             
 
     # TODO
@@ -100,7 +122,7 @@ class SimpleSpikeSorter:
         l = plt.plot(x, spikes_avg, **kw)
         plt.fill_between(x, spikes_avg - spikes_std, spikes_avg + spikes_std, color=l[0].get_color(), alpha=0.25)
         
-    def plot_spike_peaks(self, use_filtered=False , figsize=(21,5)):
+    def plot_spike_peaks(self, use_filtered = False , figsize = (21, 5)):
         """
         Plots the voltage signal, overlaid by spike peak times,
         overlaid by lines indicating the window around the spike peaks
@@ -117,6 +139,17 @@ class SimpleSpikeSorter:
             plt.plot(self.spike_indices, self.voltage[self.spike_indices], '.r')
             axvlines(plt.gca(), self.spike_indices + int(np.round(self.post_window/self.dt)), color='g')
             axvlines(plt.gca(), self.spike_indices - int(np.round(self.pre_window/self.dt)), color='m')
+
+    def plot_voltage(self, use_filtered = False, figsize = (21, 5)):
+        """
+        Plots the voltage trace
+        """
+        plt.figure(figsize = figsize)
+        if use_filtered:
+            plt.plot(self.voltage_filtered)
+        else:
+            plt.plot(self.voltage)
+
 
 
 
