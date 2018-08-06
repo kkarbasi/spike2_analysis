@@ -111,6 +111,16 @@ class SimpleSpikeSorter:
         self.post_window = post_time
         self._align_spikes()
 
+    def get_spike_indices(self, remove_overlaps=True):
+        """
+        Returns the detected spike indices
+        remove_overlaps: If we want to remove the overlapping spikes based on the set window
+        """
+        if remove_overlaps:
+            return self._remove_overlapping_spike_windows()
+        else:
+            return self.spike_indices
+
     def plot_spike_waveforms_average(self, **kw):
         """
         Plots the average spike wavelets of the current dataset
@@ -146,9 +156,14 @@ class SimpleSpikeSorter:
         """
         plt.figure(figsize = figsize)
         if use_filtered:
-            plt.plot(self.voltage_filtered)
+            plt.plot(np.arange(0, self.voltage_filtered.size) * self.dt, self.voltage_filtered)
+            plt.title('Filtered voltage vs Time(s)')
+            plt.xlabel('t(s)')
         else:
-            plt.plot(self.voltage)
+            plt.plot(np.arange(0, self.voltage.size) * self.dt, self.voltage)
+            plt.title('Raw voltage vs Time(s)')
+            plt.xlabel('t(s)')
+
 
 
 
