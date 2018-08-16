@@ -9,6 +9,8 @@ from sklearn.mixture import GaussianMixture
 import scipy.signal
 from kaveh.plots import axvlines
 from matplotlib import pyplot as plt
+import scipy.fftpack
+from scipy.stats import norm
 
 class SimpleSpikeSorter:
     """ Class that detects and sorts simple spikes"""
@@ -24,12 +26,21 @@ class SimpleSpikeSorter:
         self.num_gmm_components = 6
         self.gmm_cov_type = 'tied'
         self.pre_window = 0.0005 #s
-        self.post_window = 0.0005 #s
+        self.post_window = 0.005 #s
+
+        # Complex spike detection parameters:
+        self.freq_range = (0, 5000) #Hz
+        self.cs_num_gmm_components = 2
+        self.cs_cov_type = 'tied'
+        self.post_cs_pause_time = 0.015 #s
 
     def run(self):
         self._pre_process()
         self._detect_spikes()
-        self._align_spikes()        
+        self._align_spikes()
+        self._cluster_spike_waveforms_by_freq()
+        self._cs_post_process()
+
 
     def _pre_process(self):
         """
@@ -79,7 +90,7 @@ class SimpleSpikeSorter:
         return no_overlap_spike_indices
 
 
-    def _align_spikes(self, use_filtered=False, to_exclude=[]):
+    def _align_spikes(self, use_filtered = False, to_exclude = []):
         """
         Aligns the spike waveforms (from pre_window to post_windows, aligned to peak times)
         Pass to_exclude if you want to exclude from adding to the align matrix
@@ -105,11 +116,82 @@ class SimpleSpikeSorter:
         Use the number of components that captures at least captured_variance of the spike waveforms
         """
         return 0
+    
+    def _find_max_powers(self):
+        """
+        Finds and returns the maximum power of all aligned spike waveforms in a specified frequency range.
+        freq_range: a tuple of frequency range boundaries (in Hz)
+        """
+        
+        max_powers = []
+        for wf in self.aligned_spikes:
+            yf = scipy.fftpack.fft(wf)
+            N = wf.size
+            xf = np.linspace(0.0, 1.0 / (2.0 * self.dt), N/2)
+            mask = (xf < self.freq_range[1]) & (xf >= self.freq_range[0])
+            power_spectrum = 2.0/N * np.abs(yf[:N//2])
+            max_powers = max_powers + [np.max(power_spectrum[mask])]
+
+        max_powers = np.asarray(max_powers)
+        return max_powers 
+
+    def _cluster_spike_waveforms_by_freq(self, plot_hist = False):
+        """
+        Clusters the found spikes into simple and complex, using a gmm_nc component GMM
+        It uses the maximum power in the lower region of the frequency spectrum of the 
+        spike waveforms
+        """
+        max_powers = self._find_max_powers()
+        gmm = GaussianMixture(self.cs_num_gmm_components, covariance_type = self.cs_cov_type).fit(max_powers.reshape(-1,1))
+        cluster_labels = gmm.predict(max_powers.reshape(-1,1))
+        cluster_labels = cluster_labels.reshape(max_powers.shape)
+
+        cs_indices = self.get_spike_indices()[cluster_labels == np.argmax(gmm.means_)]
+        if plot_hist:
+            plt.figure()
+            # uniq = np.unique(ss.d_voltage[prang] , return_counts=True)
+            x = np.arange(np.min(max_powers), np.max(max_powers), 1)
+            if self.cs_cov_type == 'tied':
+                gauss_mixt = np.array([p * norm.pdf(x, mu, np.sqrt(gmm.covariances_.flatten())) 
+                    for mu, p in zip(gmm.means_.flatten(), gmm.weights_)])
+            else:
+                gauss_mixt = np.array([p * norm.pdf(x, mu, sd) 
+                    for mu, sd, p in zip(gmm.means_.flatten(), np.sqrt(gmm.covariances_.flatten()), gmm.weights_)])
+                        
+            colors = plt.cm.jet(np.linspace(0,1,len(gauss_mixt)))
+
+            # plot histogram overlaid by gmm gaussians
+            for i, gmixt in enumerate(gauss_mixt):
+                    plt.plot(x, gmixt, label = 'Gaussian '+str(i), color = colors[i])
+
+                    plt.hist(max_powers.reshape(-1,1),bins=256,density=True, color='gray')
+                    axvlines(plt.gca(), gmm.means_)
+                    plt.show()
+        self.cs_indices = cs_indices
+        return cs_indices
+    
+    def _cs_post_process(self):
+        """
+        Post processing for complex spikes.
+        pause_time: the pause time that the complex spikes should produce in the spike train.
+        Any detected complex spike that produces less pause than this is ignored
+        """
+        # Remove detected cs that don't produce a pause in simple spikes for pause_time
+        to_delete = []
+        for i, csi in enumerate(self.cs_indices):
+            if (self.get_spike_indices()[np.squeeze(np.where(self.get_spike_indices() == csi)) + 1] - csi) \
+               * self.dt < self.post_cs_pause_time:
+                to_delete = to_delete + [i]
+        mask = np.ones(self.cs_indices.shape, dtype = bool)
+        mask[to_delete] = False
+        self.cs_indices = self.cs_indices[mask]
 
     def set_spike_window(self, pre_time, post_time):
         self.pre_window = pre_time
         self.post_window = post_time
         self._align_spikes()
+        self._cluster_spike_waveforms_by_freq()
+        self._cs_post_process()
 
     def get_spike_indices(self, remove_overlaps=True):
         """
