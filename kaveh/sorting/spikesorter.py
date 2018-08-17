@@ -122,7 +122,7 @@ class SimpleSpikeSorter:
         Finds and returns the maximum power of all aligned spike waveforms in a specified frequency range.
         freq_range: a tuple of frequency range boundaries (in Hz)
         """
-        
+        powers = [] 
         max_powers = []
         for wf in self.aligned_spikes:
             yf = scipy.fftpack.fft(wf)
@@ -131,9 +131,10 @@ class SimpleSpikeSorter:
             mask = (xf < self.freq_range[1]) & (xf >= self.freq_range[0])
             power_spectrum = 2.0/N * np.abs(yf[:N//2])
             max_powers = max_powers + [np.max(power_spectrum[mask])]
-
+            powers.append(power_spectrum[mask])
         max_powers = np.asarray(max_powers)
-        return max_powers 
+        powers = np.array(powers)
+        return max_powers, powers 
 
     def _cluster_spike_waveforms_by_freq(self, plot_hist = False):
         """
@@ -141,7 +142,7 @@ class SimpleSpikeSorter:
         It uses the maximum power in the lower region of the frequency spectrum of the 
         spike waveforms
         """
-        max_powers = self._find_max_powers()
+        max_powers = self._find_max_powers()[0]
         gmm = GaussianMixture(self.cs_num_gmm_components, covariance_type = self.cs_cov_type).fit(max_powers.reshape(-1,1))
         cluster_labels = gmm.predict(max_powers.reshape(-1,1))
         cluster_labels = cluster_labels.reshape(max_powers.shape)
@@ -168,7 +169,6 @@ class SimpleSpikeSorter:
                     axvlines(plt.gca(), gmm.means_)
                     plt.show()
         self.cs_indices = cs_indices
-        return cs_indices
     
     def _cs_post_process(self):
         """
@@ -186,12 +186,33 @@ class SimpleSpikeSorter:
         mask[to_delete] = False
         self.cs_indices = self.cs_indices[mask]
 
+    def recluster_complex_spikes(self, freq_range=None, gmm_nc=None, cov_type=None, plot_hist = False):
+        """
+        Re-run complex spike clustering with new parameters for the GMM
+        """
+        if freq_range is not None:
+            self.freq_range = freq_range
+        if gmm_nc is not None:
+            self.cs_num_gmm_components = gmm_nc
+        if cov_type is not None:
+            self.cs_cov_type = cov_type
+        self._cluster_spike_waveforms_by_freq(plot_hist = plot_hist)
+        self._cs_post_process()
+
+    def get_cs_spike_indices(self):
+        """
+        Returns the detected complex spike indices
+        """
+        return self.cs_indices
+
+
     def set_spike_window(self, pre_time, post_time):
+        """
+        Sets the spike window for complex spike detection
+        """
         self.pre_window = pre_time
         self.post_window = post_time
         self._align_spikes()
-        self._cluster_spike_waveforms_by_freq()
-        self._cs_post_process()
 
     def get_spike_indices(self, remove_overlaps=True):
         """
