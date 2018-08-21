@@ -32,3 +32,11 @@ def plot_raster_overlaid_signal(signal_vals, t, spike_times, **kw):
     # plt.ylabel('{}'.format(str(asig.units)))
     # plt.xlabel('t (s)')
     return ax
+
+def plot_shaded_err(xf, mean_signal, err_signal, **kw):
+    """
+    Plots the average spike wavelets of the current dataset
+    """
+    l = plt.plot(x, mean_signal, **kw)
+    plt.fill_between(x, mean_signal - err_signal, mean_signal + err_signal, color=l[0].get_color(), alpha=0.25) 
+    
