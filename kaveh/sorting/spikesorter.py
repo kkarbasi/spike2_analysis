@@ -134,7 +134,7 @@ class SimpleSpikeSorter:
             powers.append(power_spectrum[mask])
         max_powers = np.asarray(max_powers)
         powers = np.array(powers)
-        return max_powers, powers, xf 
+        return max_powers, powers, xf[mask] 
 
     def _cluster_spike_waveforms_by_freq(self, plot_hist = False):
         """
