@@ -85,6 +85,8 @@ class SimpleSpikeSorter:
                 to_delete = to_delete + [i]
         if self.spike_indices[-1] + post_index >= self.voltage.size:
             to_delete = to_delete + [self.spike_indices.size - 1]
+        if self.spike_indices[0] - pre_index < 0:
+            to_delete = [0] + to_delete
         mask = np.ones(self.spike_indices.shape, dtype=bool)
         mask[to_delete] = False
         no_overlap_spike_indices = self.spike_indices[mask]
@@ -181,9 +183,10 @@ class SimpleSpikeSorter:
         # Remove detected cs that don't produce a pause in simple spikes for pause_time
         to_delete = []
         for i, csi in enumerate(self.cs_indices):
-            if (self.get_spike_indices()[np.squeeze(np.where(self.get_spike_indices() == csi)) + 1] - csi) \
-               * self.dt < self.post_cs_pause_time:
-                to_delete = to_delete + [i]
+            if (self.get_spike_indices()[-1] != csi):
+                if (self.get_spike_indices()[np.squeeze(np.where(self.get_spike_indices() == csi)) + 1] - csi) \
+                   * self.dt < self.post_cs_pause_time:
+                    to_delete = to_delete + [i]
         mask = np.ones(self.cs_indices.shape, dtype = bool)
         mask[to_delete] = False
         self.cs_indices = self.cs_indices[mask]
