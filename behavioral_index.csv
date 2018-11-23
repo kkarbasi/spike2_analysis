@@ -1,0 +1,631 @@
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P17/P17_1 LFW5 RBW5 E.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P17/P17_1 LBW5 RFW5 C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P17/P17_1 preadapt A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P17/P17_1 LFW5 RBW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P17/P17_1 LBW3 RFW5 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P21/P21_1 LFW5 RBW5 C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P21/P21_1 LBW5 RFW5 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P21/P21_1 LBW5 RFW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P21/P21_1 pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P25/P25_1 LFW5 RBW5 C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P25/P25_1 LBW3.5 RFW 1 E.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P25/P25_1 LBW5 RFW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P25/P25_1 pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P25/P25_1 LBW5 RFW5 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P09/P09_1 LBW5 RFW5 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P09/P09_1 LBW5 RFW5 mphonics E.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P09/P09_1 LFW1 RBW3 Zeroing error C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P09/P09_1pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P09/P09_1 LFW5 RBW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rfw5 lbw8 E.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rbw5 lfw5 F.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rbw5 lfw5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rfw5 lbw5 C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rbw5 lfw5 G.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P03/P03_2 rfw8 lbw8 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 LBW5 RFW5 C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 LFW1.5 RBW1.5 F.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 LFW1.5 RBW3.5 E.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 LFW5 RBW5 D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P24/P24_1 LFW5 RBW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P26/P26_1_LFW5 RBW5 B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Pip/P26/P26_1 pre A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/Oscar_tr49_PreAdapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/oscar_3_27_03_U17_5.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/Oscar_tr49_Adapt_BW5L_FW5R.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O89/O89_1LargeHor_c.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O89/O89_1adaptFE_b.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O89/O89_1pre_a.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O62/O62_1_FW5R_BW5L_A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O62/O62_1_FW5L_BW5R_B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O62/O62_1_pre.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O44/O44_1_FW5L_BW5R_Adapt.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O44/O44_1_PreAdapt.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O44/O44_1_FW7L_BW7R_Adapt.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O88/O88_1LFW5RBW5_c.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O88/O88_1LBW5RFW5_d.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O88/O88_1pre_a.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O88/O88_1LBW5RFW5_b.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O22/O22_2Adapt_BW5L_FW5LCFRDone.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O22/O22_2PreAdaptCFRDone.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O13/O13_3_adapt40pct.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O13/O13_3_adapt30pct.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O13/O13_3_preadapt.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O13/O13_3_adapt40pctB.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O60/O60_1_Preadapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O60/O60_1_FW5L_BW5R_B.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O60/O60_1_BW5L_FW5R_C.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O60/O60_1_FW5L_BW5R_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O60/O60_1_FW3L_BW3R_A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O41/O41_1_FW5L_BW5R_A.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O41/O41_1_pre.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O83/O83_1_mix_N_FW5L_BW5R_A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O26/O26_1Adapt_FW5R_BW5L.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O26/O26_1Adapt_FW5R_BW5L_AfterCellRIP_CFRonly.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O26/O26_1PreAdapt.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O29/O29_4Adapt_FW5L_BW5RCFR611sec.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O29/O29_4PreAdaptCFRDone.smr,HE,1,HT,2,VE,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_FW5L_BW5R_D.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_BW5L_FW5R_C.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O83_1_mix_N_FW5L_BW5R_A.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_BW5L_FW5R_E.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_BW8L_FW5R_F.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_FW5L_BW5R_B.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O84/O84_1_preadapt_A.smr,HE,5,VE,6,HE,7,VE,8
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.18/Wyatt25Unit_2008.11.18_1337_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.18/Wyatt25Unit_2008.11.18_1334_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.18/Wyatt25Unit_2008.11.18_1333_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.18/Wyatt25Unit_2008.11.18_1338_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.18/Wyatt25Unit_2008.11.18_1335_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1349_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1351_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1240_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1233_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1226_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1344_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1234_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1353_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1239_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1345_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1238_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1235_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1228_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1224_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.10/Wyatt25Unit_2008.09.10_1230_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1507_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1502_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1509_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1515_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1516_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1514_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1510_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1504_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1508_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_1/Wyatt25Unit_2008.12.09_1511_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1248_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1234_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1239_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1246_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1238_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1233_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1241_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1235_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.06/Wyatt25Unit_2008.11.06_1242_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1321_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1333_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1322_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1323_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1325_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1334_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1331_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1329_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1318_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.14/Wyatt25Unit_2008.11.14_1330_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1609_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1616_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1611_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1603_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1608_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1606_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1613_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1617_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1610_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.09_2/Wyatt25Unit_2008.12.09_1615_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1745_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1739_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1732_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1728_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1747_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1742_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1736_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1748_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1740_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_2_2/Wyatt25Unit_2008.12.03_1737_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1509_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1518_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1515_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1504_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1503_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1506_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1520_Threespot.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1519_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1511_Threespot.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_1/Wyatt25Unit_2008.11.13_1513_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1416_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1410_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1406_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1404_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1415_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1413_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1401_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1411_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1408_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_1/Wyatt25Unit_2008.12.02_1407_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1511_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1500_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1522_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1517_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1515_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1506_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1507_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1520_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1512_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.07/Wyatt25Unit_2008.11.07_1514_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1416_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1410_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1419_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1405_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1407_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1414_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1412_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1409_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1411_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_1/Wyatt25Unit_2008.12.05_1418_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1513_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1514_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1520_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1522_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1527_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1523_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1517_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1525_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1519_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.02_2/Wyatt25Unit_2008.12.02_1528_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.12/Wyatt25Unit_2008.09.12_1330_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.12/Wyatt25Unit_2008.09.12_1335_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.12/Wyatt25Unit_2008.09.12_1331_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.12/Wyatt25Unit_2008.09.12_1328_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.09.12/Wyatt25Unit_2008.09.12_1333_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1628_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1626_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1627_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1629_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1632_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1627_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1632_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1624_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1631_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.10/Wyatt25Unit_2008.12.10_1625_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1316_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1322_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1330_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1317_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1326_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1321_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1328_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1318_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.05/Wyatt25Unit_2008.11.05_1324_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1538_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1539_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1544_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1534_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1547_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1537_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1545_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1540_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1541_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.05_3/Wyatt25Unit_2008.12.05_1546_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1555_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1552_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1540_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1550_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1545_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1557_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1548_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1544_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1546_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1601_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.13_2/Wyatt25Unit_2008.11.13_1559_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1404_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1401_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1400_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1407_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1409_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1408_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1410_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1406_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1402_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.24/Wyatt25Unit_2008.11.24_1359_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1543_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1544_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1547_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1548_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1545_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1544_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1547_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1548_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1549_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.15/Wyatt25Unit_2008.12.15_1551_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1417_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1411_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1408_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1415_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1407_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1423_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1413_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1419_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.03/Wyatt25Unit_2008.11.03_1421_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1511_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1509_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1517_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1504_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1505_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1512_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1518_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1507_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1513_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.03_1/Wyatt25Unit_2008.12.03_1515_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.10/Wyatt25Unit_2008.11.10_1514_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.10/Wyatt25Unit_2008.11.10_1521_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.10/Wyatt25Unit_2008.11.10_1519_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.10/Wyatt25Unit_2008.11.10_1516_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.11.10/Wyatt25Unit_2008.11.10_1515_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1606_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1608_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1621_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1609_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1616_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1611_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1619_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1613_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1615_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Wyatt/Wyatt25Unit 2008.12.01/Wyatt25Unit_2008.12.01_1614_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.15/BuckleyUnit_2007.11.15_1615_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.15/BuckleyUnit_2007.11.15_1612_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.15/BuckleyUnit_2007.11.15_1613_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.15/BuckleyUnit_2007.11.15_1610_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.15/BuckleyUnit_2007.11.15_1617_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.02/BuckleyUnit_2007.10.02_1835_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.02/BuckleyUnit_2007.10.02_1829_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.02/BuckleyUnit_2007.10.02_1837_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.02/BuckleyUnit_2007.10.02_1832_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.02/BuckleyUnit_2007.10.02_1831_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.14/BuckleyUnit_2007.12.14_1328_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.14/BuckleyUnit_2007.12.14_1332_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.14/BuckleyUnit_2007.12.14_1334_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.14/BuckleyUnit_2007.12.14_1327_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.14/BuckleyUnit_2007.12.14_1329_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.14/BuckleyUnit_2007.09.14_1535_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.14/BuckleyUnit_2007.09.14_1533_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.14/BuckleyUnit_2007.09.14_1530_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.14/BuckleyUnit_2007.09.14_1528_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.14/BuckleyUnit_2007.09.14_1531_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.21/BuckleyUnit_2007.09.21_1514_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.21/BuckleyUnit_2007.09.21_1516_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.21/BuckleyUnit_2007.09.21_1519_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.21/BuckleyUnit_2007.09.21_1517_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.21/BuckleyUnit_2007.09.21_1521_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1512_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1507_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1502_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1509_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1505_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1458_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1500_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.21/BuckleyUnit_2007.08.21_1513_Threespot.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.17/BuckleyUnit_2007.10.17_1506_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.17/BuckleyUnit_2007.10.17_1508_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.17/BuckleyUnit_2007.10.17_1513_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.17/BuckleyUnit_2007.10.17_1510_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.17/BuckleyUnit_2007.10.17_1515_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.13/BuckleyUnit_2007.09.13_1336_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.13/BuckleyUnit_2007.09.13_1342_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.13/BuckleyUnit_2007.09.13_1340_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.13/BuckleyUnit_2007.09.13_1337_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.13/BuckleyUnit_2007.09.13_1338_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.26/BuckleyUnit_2007.10.26_1722_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.26/BuckleyUnit_2007.10.26_1717_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.26/BuckleyUnit_2007.10.26_1725_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.26/BuckleyUnit_2007.10.26_1713_Three.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.10.26/BuckleyUnit_2007.10.26_1719_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1607_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1558_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1557_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1600_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1610_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1608_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1604_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1557_Three.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.22/BuckleyUnit_2007.08.22_1602_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1607_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1605_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1609_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1601_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1600_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.24/BuckleyUnit_2007.08.24_1611_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1349smr_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1406_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1409_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1411_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1423_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.07/BuckleyUnit_2008.01.07_1407_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.18/BuckleyUnit_2007.12.18_1242_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.18/BuckleyUnit_2007.12.18_1234_Three.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.18/BuckleyUnit_2007.12.18_1235_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.18/BuckleyUnit_2007.12.18_1239_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.12.18/BuckleyUnit_2007.12.18_1237_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.25/BuckleyUnit_2007.09.25_1602_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.25/BuckleyUnit_2007.09.25_1601_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.25/BuckleyUnit_2007.09.25_1607_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.25/BuckleyUnit_2007.09.25_1559_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.25/BuckleyUnit_2007.09.25_1603_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1741_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1738_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1739_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1743_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1736_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.19/BuckleyUnit_2007.09.19_1551_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.19/BuckleyUnit_2007.09.19_1558_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.19/BuckleyUnit_2007.09.19_1556_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.19/BuckleyUnit_2007.09.19_1549_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.19/BuckleyUnit_2007.09.19_1553_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.16/BuckleyUnit_2008.01.16_1634_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.16/BuckleyUnit_2008.01.16_1623_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.16/BuckleyUnit_2008.01.16_1628_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.16/BuckleyUnit_2008.01.16_1626_Three.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2008.01.16/BuckleyUnit_2008.01.16_1631_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.17/BuckleyUnit_2007.09.17_1518_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.17/BuckleyUnit_2007.09.17_1525_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.17/BuckleyUnit_2007.09.17_1519_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.17/BuckleyUnit_2007.09.17_1522_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.09.17/BuckleyUnit_2007.09.17_1521_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1329_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1320_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1321_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1317_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1332_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1328_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1330_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1323_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1319_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.10.02/Buckley25Beh_2008.10.02_1326_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1754_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1803_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1805_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1750_Threespot.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1801_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1751_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1756_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1752_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1758_Threespot.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.12/Buckley25Beh_2008.09.12_1800_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1605_Three.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1618_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1607_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1616_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1620_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1609_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.02/BuckleyUnit_2007.11.02_1611_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.27/BuckleyUnit_2007.08.27_1437_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.27/BuckleyUnit_2007.08.27_1434_Three.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.27/BuckleyUnit_2007.08.27_1436_D.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.27/BuckleyUnit_2007.08.27_1435_T.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.08.27/BuckleyUnit_2007.08.27_1439_Memory.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1417_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1408_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1406_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1412_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1424_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1415_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1410_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1422_Threespot.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1413_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1421_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1428_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1407_T.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1417_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1423_D.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit25 2008.09.16/Buckley25Beh_2008.09.16_1426_Memory.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K10/error_direction/K10_1_directionaltest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K10/error_magnitude/K10_1_errorsizetest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K14/error_direction/K14_1_directionaltest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K14/error_magnitude/K14_1_errorsizetest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K27/K27_2HadaptbothBW.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K27/K27_2control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K27/K27_1control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K27/error_magnitude/K27_2Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K27/error_magnitude/K27_1Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K32/K32_1oblRBWLBWadapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K32/K32_1control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K32/error_magintude/K32_1Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K32/error_magintude/K32_1obl45errortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K32/error_direction/K32_1dirtest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K45/error_direction/K45_1_ErrorDirectionTest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K45/error_magnitude/K45_1_ErrorSizetest315degDir.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K33/error_direction/K33_1dirtest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K33/error_direction/K33_2dirtest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K33/error_magnitude/K33_1Verrortest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K33/error_magnitude/K33_2Herrortest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/K57_2_8dir_blanked.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/K57_1_SStuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/K57_1_8dir_blanked.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/error_direction/K57_2_CSdirtuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/error_direction/K57_1_CSdir_tuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K57/error_magnitude/K57_2_errorsizetest225.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K26/K26_1control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K26/K26_1RFWLBW.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K26/K26_1RBWLFW.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K26/error_direction/K26_1dirtuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K26/error_magnitude/K26_1Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/K25_1HadaptBOTHFWmultstepsize.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/K25_1control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/K25_1_10_20_30_40degSaccades.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/K25_1HadaptBOTHBW.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/error_direction/K25_1dirtuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K25/error_magnitude/K25_1Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K21/error_direction/K21_2_directionaltest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K55/K55_1_SScontrol8dir.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K55/error_direction/K55_1_DirectionalTest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K48/error_direction/K48_2_CSddirTuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K48/error_direction/K48_1_CSddirTuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K38/K38_1_SScontrolHorz.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K38/K38_1_SScontrol8dir.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K38/error_direction/K38_1_DirectionalTest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K38/error_magnitude/K38_1_ErrorSizeTest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K60/K60_2_8dir_blanked.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K60/K60_1_8dir_blanked.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K60/error_direction/K60_1_CSdirtuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K60/error_direction/K60_2_Csdirtuning.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K60/error_magnitude/K60_2_errorsizetest315.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_direction/K69_1_DirTuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_magnitude/K69_1_ErrorSize45degDir.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K50/error_direction/K50_2_directionaltest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K50/error_magnitude/K50_2_Horzerrorsizetest_leveltriggerable.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K42/K42_1_8DirSS.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K42/error_direction/K42_1_ErrorDirTest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K40/error_direction/K40_1_Dirtuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K40/error_magnitude/K40_1_ErrorSizeHorLINCOR.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K16/error_direction/K16_2_directionaltest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/K34_1SStest_small_large_sacccades.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/K34_1control.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/K34_1Hcontrol.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/K34_1HadaptbothBW.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/error_direction/K34_1dirtest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K34/error_magnitude/K34_1Herrortest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S38/error_direction/S38_1_directionaltuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S38/error_magnitude/S38_1_315degErrorTest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S36/error_direction/S36_1_directionaltuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S36/error_magnitude/S36_1_135degErrorTest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S27/error_direction/S27_1_DirectionalTuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S27/error_magnitude/S27_1_HorzErrorSizetest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S18/S18_1_SScontrol8dirHroz.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S18/S18_1_135degBW315degFWvariablestepsize_leveltrigger.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S18/error_direction/S18_1_DirectionalTuning_leveltrigger.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S18/error_magnitude/S18_1_HorzErrorSizeTest.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S34/error_direction/S34_2_directionaltuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S34/error_direction/S34_1_directionaltuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S34/error_magnitude/S34_2_315degErrorTest.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S32/error_direction/S32_1_Directionaltest_2500slong_toughCS.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S30/error_direction/S30_1_directionaltuning.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S30/error_magnitude/S30_1_45degErrorTest Lost CS short.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W073008/W073008_1518_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W111308/W111308_1604_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W091008/W091008_1241_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W091008/W091008_1248_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120308_2/W120308_2_1714_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120308_2/W120308_2_1622_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120908_2/W120908_2_1618_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120108/W120108_1622_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120108/W120108_1634_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120908_1/W120908_1_1524_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120908_1/W120908_1_1517_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W073108/W073108_1449_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120508_1/W120508_1_1429_Adapt.smr,HE,1,VE,2,HT,3,VT,4,HT,6,VT,7
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120508_1/W120508_1_1420_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120508_2/W120508_2_1548_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120508_2/W120508_2_1628_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W091208/W091208_1348_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W091208/W091208_1337_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120208_2/W120208_2_1530_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120208_2/W120208_1531_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120308_1/W120308_1_1519_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120308_1/W120308_1_1528_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W121008/W121008_1633_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W121508/W121508_1551_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120208_1/W120208_1_1418_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Wyatt/W120208_1/W120208_1_1428_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B110807/B110807_1632_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B091407/B091407_1428_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B092507/B092507_1457_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B101707/B101707_1333_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B110207/B110207_1502_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B111507/B111507_1528_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B122607/B122607_1505_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B010708/B010708_1259_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B092107/B092107_1413_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B122107/B122107_1218_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B091207/B091207_1353_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B101507/B101507_1556_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B092707/B092707_1501_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B092807/B092807_1449_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B082107/B082107_1340_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B121407_1/B121407_1_1124_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B121807/B121807_1135_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B090407/B090407_1526_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B112107/B112107_1507_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B010908/B010908_1537_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B091907/B091907_1456_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B082207/B082207_1505_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B091707/B091707_1414_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B121407_2/B121407_2_1337_List_ortho.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B121407_2/B121407_2_1124_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_25deg/B100207/B100207_1710_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101006/F101006_1423_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101006/F101006_1438_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F091106/F091106_0949_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F091106/F091106_1002_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F090606/F090606_ 1325_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F090606/F090606_ 1313_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102506/F102506_1506_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102506/F102506_1518_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F112006/F112006_1446_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F112006/F112006_1501_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101106/F101106_1311_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101106/F101106_1324_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102006/F102006_0933_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102006/F102006_0916_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F100906/F100906_1343_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F100906/F100906_1358_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F110706/F110706_1413_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F110706/F110706_1421_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F090806/F090806_1035_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F090806/F090806_1020_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102706/F102706_1435_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F102706/F102706_1449_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101606/F101606_1323_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F101606/F101606_1308_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F110206/F110206_1411_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Felix/F110206/F110206_1400_List.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101308/B101308_1342_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101308/B101308_1351_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101308/B101308_1443_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100308_1/B100308_1_1258_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100308_1/B100308_1_1307_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091608/B091608_1218_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091608/B091608_1306_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091608/B091608_1429_AdaptCTRL.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091608/B091608_1208_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101508/B101508_1610_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101508/B101508_1521_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101508/B101508_1530_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091908_2/B091908_2_1550_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091908_2/B091908_21602_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091208/B091208_1545_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091208/B091208_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091208/B091208_1554_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100308_2/B100308_2_1403_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100308_2/B100308_2_1504_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100308_2/B100308_2_1412_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100208/B100208_1228_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100208/B100208_1128_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100208/B100208_1307_AdaptUnadapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B100208/B100208_1137_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B101708/B101708_1422_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B093008/B093008_1149_List.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B093008/B093008_1200_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B093008/B093008_1242_AdaptForward.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091108/B091108_1200_Adapt.smr
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091908_1/B091908_1_1509_Adapt.smr,HE,1,VE,2,HT,3,VT,4
+/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_Adapt/Buckley_12deg/B091908_1/B091908_1_1500_List.smr
