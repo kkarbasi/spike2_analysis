@@ -42,7 +42,7 @@ class target:
     
     def _find_target_jumps_horizontal(self):
         """
-        Finds the target jump indices in the input target signal
+        Finds the target jump indices in the input target horizontal position signal
         """
         # find target jumps
         ht_diff = np.abs(np.diff(self.ht))
@@ -61,10 +61,49 @@ class target:
     
     # TODO
     def _find_target_jumps_vertical(self):
-        return 0
+        """
+        Finds the target jump indices in the input target vertical position signal
+        """
+        # find target jumps
+        vt_diff = np.abs(np.diff(self.vt))
+        target_jump_indices = scipy.signal.find_peaks(vt_diff, prominence=200)[0]
+
+        # remove detected target jumps that are likely noise related(less than 5 samples apart)
+        to_delete = []
+        for i, tji in enumerate(target_jump_indices[1:]):
+                if tji - target_jump_indices[i] < 5:
+                            to_delete = to_delete + [i+1]
+        mask = np.ones(target_jump_indices.shape, dtype=bool)
+        mask[to_delete] = False
+        target_jump_indices = target_jump_indices[mask]
+        return target_jump_indices
     
-    # TODO
+    # TODO: try this in jupyter, also try detecting jumps using the 2d vector amp signal sqrt(x^2+y^2)
     def _find_target_jumps_2d(self):
+
+        vt_diff = np.abs(np.diff(self.vt))
+        target_jump_indices_v = scipy.signal.find_peaks(vt_diff, prominence=200)[0]
+        ht_diff = np.abs(np.diff(self.ht))
+        target_jump_indices_h = scipy.signal.find_peaks(ht_diff, prominence=200)[0]
+        
+        target_jump_indices = np.union1d(target_jump_indices_h, target_jump_indices_v)
+        
+        # remove detected target jumps that are likely noise related or
+        # due to slight drift in detecting the same jump from horizontal and vertical signals
+        # (less than 5 samples apart)
+        to_delete = []
+        for i, tji in enumerate(target_jump_indices[1:]):
+                if tji - target_jump_indices[i] < 5:
+                            to_delete = to_delete + [i+1]
+        mask = np.ones(target_jump_indices.shape, dtype=bool)
+        mask[to_delete] = False
+        target_jump_indices = target_jump_indices[mask]
+
+        return target_jump_indices
+
+        
+
+
         return 0
 
     def _find_jump_vector_amplitudes(self, num_clusters):
@@ -88,7 +127,24 @@ class target:
         jump_amps = kmeans.cluster_centers_
         jump_amps = np.array([int(ja) for ja in jump_amps])
         return jump_amps
-    
+
+    def _find_jump_vector_amplitudes_v(self, num_clusters):
+        target_jump_indices = self._find_target_jumps()
+        self.jump_vecs = []
+        for tji in target_jump_indices:
+                self.jump_vecs = self.jump_vecs + [self.vt[tji + 5] - self.vt[tji - 5]]
+        #[hist, bin_edges] = np.histogram(jump_vecs, bins=np.arange(np.min(self.ht), np.max(self.ht), bin_size))
+        #hist[hist < 10] = 0 # remove rare target jump vectors
+        #return bin_edges[np.nonzero(hist)]
+        self.jump_vecs = np.array(self.jump_vecs).reshape(-1,1)
+        kmeans = KMeans(n_clusters=num_clusters, random_state=0).fit(self.jump_vecs)
+        jump_amps = kmeans.cluster_centers_
+        jump_amps = np.array([int(ja) for ja in jump_amps])
+        return jump_amps
+
+    def _find_jump_vector_amplitudes_2d(self, num_clusters):
+        return 0
+
     def _is_in_cluster(self, jump_vec, jump_amp, jump_tol):
         if self.mode == 'horizontal':
             if jump_vec < jump_amp + jump_tol and jump_vec >= jump_amp - jump_tol:
