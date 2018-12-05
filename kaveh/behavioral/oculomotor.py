@@ -59,7 +59,6 @@ class target:
         return target_jump_indices
         
     
-    # TODO
     def _find_target_jumps_vertical(self):
         """
         Finds the target jump indices in the input target vertical position signal
@@ -78,33 +77,21 @@ class target:
         target_jump_indices = target_jump_indices[mask]
         return target_jump_indices
     
-    # TODO: try this in jupyter, also try detecting jumps using the 2d vector amp signal sqrt(x^2+y^2)
     def _find_target_jumps_2d(self):
+        pos_2d = np.column_stack((self.vt, self.ht))
+        pos_norm = np.linalg.norm(pos_2d, axis = -1)
+        pos_diff = np.abs(np.diff(pos_norm))
+        target_jump_indices = scipy.signal.find_peaks(pos_diff, prominence=200)[0]
 
-        vt_diff = np.abs(np.diff(self.vt))
-        target_jump_indices_v = scipy.signal.find_peaks(vt_diff, prominence=200)[0]
-        ht_diff = np.abs(np.diff(self.ht))
-        target_jump_indices_h = scipy.signal.find_peaks(ht_diff, prominence=200)[0]
-        
-        target_jump_indices = np.union1d(target_jump_indices_h, target_jump_indices_v)
-        
-        # remove detected target jumps that are likely noise related or
-        # due to slight drift in detecting the same jump from horizontal and vertical signals
-        # (less than 5 samples apart)
         to_delete = []
         for i, tji in enumerate(target_jump_indices[1:]):
-                if tji - target_jump_indices[i] < 5:
-                            to_delete = to_delete + [i+1]
+            if tji - target_jump_indices[i] < 5:
+                to_delete = to_delete + [i+1]
         mask = np.ones(target_jump_indices.shape, dtype=bool)
         mask[to_delete] = False
         target_jump_indices = target_jump_indices[mask]
 
         return target_jump_indices
-
-        
-
-
-        return 0
 
     def _find_jump_vector_amplitudes(self, num_clusters):
         if self.mode == 'horizontal':
@@ -143,7 +130,26 @@ class target:
         return jump_amps
 
     def _find_jump_vector_amplitudes_2d(self, num_clusters):
-        return 0
+        """
+        2d clustering of the jump vectors.
+        """
+        target_jump_indices = self._find_target_jumps();
+        
+        jump_vecs_h = []
+        for tji in target_jump_indices:
+            jump_vecs_h = jump_vecs_h + [self.ht[tji + 5] - self.ht[tji - 5]]
+        jump_vecs_h = np.array(jump_vecs_h)    
+                    
+        jump_vecs_v = []
+        for tji in target_jump_indices:
+            jump_vecs_v = jump_vecs_v + [self.vt[tji + 5] - self.vt[tji - 5]]
+        jump_vecs_v = np.array(jump_vecs_v)
+
+        self.jump_vecs = np.column_stack((jump_vecs_h, jump_vecs_v))
+        kmeans = KMeans(n_clusters=num_clusters, random_state=0).fit(self.jump_vecs)
+        jump_amps = kmeans.cluster_centers_
+
+        return np.int64(jump_amps)
 
     def _is_in_cluster(self, jump_vec, jump_amp, jump_tol):
         if self.mode == 'horizontal':
@@ -152,11 +158,18 @@ class target:
             else:
                 return False
         if self.mode == 'vertical':
-            # TODO
-            return False
+            if jump_vec < jump_amp + jump_tol and jump_vec >= jump_amp - jump_tol:
+                return True
+            else:
+                return False
         if self.mode == '2d':
-            # TODO
-            return False
+            if (jump_vec[0] < jump_amp[0] + jump_tol and
+                jump_vec[0] >= jump_amp[0] - jump_tol and
+                jump_vec[1] < jump_amp[1] + jump_tol and
+                jump_vec[1] >= jump_amp[1] - jump_tol):
+                return True
+            else:
+                return False
 
     def get_target_jumps(self, num_clusters = 3, jump_tol = 100):
         """
@@ -169,22 +182,13 @@ class target:
 
         target_jumps_to = {}
         for ja in jump_amps:
-                target_jumps_to[ja] = np.array([], dtype='int64')
+                target_jumps_to[str(ja)] = np.array([], dtype='int64')
         target_jump_indices = self._find_target_jumps()
         for i, tji in enumerate(target_jump_indices):
                 #     jump_vec = ht.data[prange][tji + 5] - ht.data[prange][tji - 5]
                 for ja in jump_amps:
                     if self._is_in_cluster(self.jump_vecs[i], ja, jump_tol):
-                        target_jumps_to[ja] = np.concatenate((target_jumps_to[ja], [tji]))
-        #target_jumps_to = {}
-        #for ja in jump_amps:
-        #        target_jumps_to[ja] = np.array([])
-        #target_jump_indices = self._find_target_jumps()
-        #for tji in target_jump_indices:
-        #        jump_vec = self.ht[tji + 5] - self.ht[tji - 5]
-        #        for ja in jump_amps:
-        #            if jump_vec < ja + bin_size and jump_vec >= ja:
-        #                target_jumps_to[ja] = np.concatenate((target_jumps_to[ja], [tji]))
+                        target_jumps_to[str(ja)] = np.concatenate((target_jumps_to[str(ja)], [tji]))
         return target_jumps_to
 
 
