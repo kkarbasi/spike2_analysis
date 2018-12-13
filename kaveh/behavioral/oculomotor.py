@@ -189,6 +189,6 @@ class target:
                 for ja in jump_amps:
                     if self._is_in_cluster(self.jump_vecs[i], ja, jump_tol):
                         target_jumps_to[str(ja)] = np.concatenate((target_jumps_to[str(ja)], [tji]))
-        return target_jumps_to
+        return [target_jumps_to, jump_amps]
 
 

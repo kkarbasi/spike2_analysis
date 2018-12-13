@@ -1,5 +1,6 @@
 from scipy.signal import resample
 import numpy as np
+import os
 
 def resample_to_freq(data, source_frequency, target_frequency):
     """
@@ -28,3 +29,11 @@ def closest_argmin(A, B):
     mask = (sorted_idx > 0) & \
     ((np.abs(A - sorted_B[sorted_idx-1]) < np.abs(A - sorted_B[sorted_idx])) )
     return sidx_B[sorted_idx-mask]
+
+def find_file(name, path):
+    """
+    Finds file name in path
+    """
+    for root, dirs, files in os.walk(path):
+        if name in files:
+            return os.path.join(root, name)
