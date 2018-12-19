@@ -34,6 +34,10 @@ def find_file(name, path):
     """
     Finds file name in path
     """
+    not_found = True
     for root, dirs, files in os.walk(path):
         if name in files:
+            not_found = False
             return os.path.join(root, name)
+    if not_found:
+        raise ValueError('could not find {} in {}'.format(name, path))

@@ -110,7 +110,7 @@ class target:
         #hist[hist < 10] = 0 # remove rare target jump vectors
         #return bin_edges[np.nonzero(hist)]
         self.jump_vecs = np.array(self.jump_vecs).reshape(-1,1)
-        kmeans = KMeans(n_clusters=num_clusters, random_state=0).fit(self.jump_vecs)
+        kmeans = KMeans(n_clusters=num_clusters, n_init = 20, n_jobs=5).fit(self.jump_vecs)
         jump_amps = kmeans.cluster_centers_
         jump_amps = np.array([int(ja) for ja in jump_amps])
         return jump_amps
@@ -124,7 +124,7 @@ class target:
         #hist[hist < 10] = 0 # remove rare target jump vectors
         #return bin_edges[np.nonzero(hist)]
         self.jump_vecs = np.array(self.jump_vecs).reshape(-1,1)
-        kmeans = KMeans(n_clusters=num_clusters, random_state=0).fit(self.jump_vecs)
+        kmeans = KMeans(n_clusters=num_clusters, n_init = 20, n_jobs=5).fit(self.jump_vecs)
         jump_amps = kmeans.cluster_centers_
         jump_amps = np.array([int(ja) for ja in jump_amps])
         return jump_amps
@@ -146,7 +146,7 @@ class target:
         jump_vecs_v = np.array(jump_vecs_v)
 
         self.jump_vecs = np.column_stack((jump_vecs_h, jump_vecs_v))
-        kmeans = KMeans(n_clusters=num_clusters, random_state=0).fit(self.jump_vecs)
+        kmeans = KMeans(n_clusters=num_clusters, n_init = 20, n_jobs=5).fit(self.jump_vecs)
         jump_amps = kmeans.cluster_centers_
 
         return np.int64(jump_amps)
