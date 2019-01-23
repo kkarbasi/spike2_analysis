@@ -97,9 +97,9 @@ class Channel:
         for i in range(0, len(self.blocks)):
             fd.seek(self.blocks[i] + 18)  # offset in block header (4 bytes x 4 ints (last, next, start, end) = 16) + short channel number
             num_elements = unpack_from_fd(fd, 'h')
-	    if num_elements == 1:
-            	self.data += [unpack_from_fd(fd, '{:d}h'.format(num_elements))]
-	    else:
+            if num_elements == 1:
+                self.data += [unpack_from_fd(fd, '{:d}h'.format(num_elements))]
+            else:
                 self.data += list(unpack_from_fd(fd, '{:d}h'.format(num_elements)))
         self.data = np.array(self.data, dtype='int16')
 
