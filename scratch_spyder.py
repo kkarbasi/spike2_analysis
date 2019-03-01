@@ -22,18 +22,20 @@ from smr import File
 import os
 
 f_names= [
-#          '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K48/error_direction/K48_2_CSddirTuning.smr',
-#         '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_direction/K69_1_DirTuning.smr',
-#         '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_magnitude/K69_1_ErrorSize45degDir.smr',
+          '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K48/error_direction/K48_2_CSddirTuning.smr',
+         '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_direction/K69_1_DirTuning.smr',
+         '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K69/error_magnitude/K69_1_ErrorSize45degDir.smr',
          '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Kimo/K16/error_direction/K16_2_directionaltest.smr',
          '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2008_Random/Step/S38/error_direction/S38_1_directionaltuning.smr',
           '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O62/O62_1_FW5R_BW5L_A.smr',
           '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2006/Oscar/O62/O62_1_pre.smr',
          ]
-#cs_spiketrain_idx = [1, 1, 2, 0, 1, 2, 0]
-cs_spiketrain_idx = [ 0, 1, 2, 0]
+cs_spiketrain_idx = [1, 1, 2, 0, 1, 2, 0]
+#cs_spiketrain_idx = [ 0, 1, 2, 0]
 
 
+
+#%%
 f_id = 6
 num_spike_train = cs_spiketrain_idx[f_id]
 
@@ -123,9 +125,9 @@ for fn in f_names:
     smr_content.read_channels()
     voltage_chan = smr_content.get_channel(0)
     sss = spikesorter.SimpleSpikeSorter(voltage_chan.data, voltage_chan.dt)
-    sss._pre_process()
-    sss._detect_spikes_minibatch()
-    with open(os.path.join('../data/spike_sorted_temp/', os.path.basename(fn) + '.pkl'), 'wb') as output:
+    sss.run()
+#    sss._detect_spikes_minibatch()
+    with open(os.path.join('../data/spike_sorted_fixed_minibatch', os.path.basename(fn) + '.pkl'), 'wb') as output:
         pickle.dump(sss, output, pickle.HIGHEST_PROTOCOL)
         
     
@@ -153,12 +155,12 @@ plt.show()
 
     
 #%%
-fname = '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1736_Three.smr'
+#fname = '/mnt/papers/Herzfeld_Nat_Neurosci_2018/raw_data/2010_5_types_of_saccades/Buckley/BuckleyUnit 2007.11.08/BuckleyUnit_2007.11.08_1736_Three.smr'
+f_name = f_names[2]
 
 
 
-
-smr_content = File(fname)
+smr_content = File(f_name)
 smr_content.read_channels()
 voltage_chan = smr_content.get_channel(0)
 sss = spikesorter.SimpleSpikeSorter(voltage_chan.data, voltage_chan.dt)
@@ -166,21 +168,43 @@ sss._pre_process()
 sss._detect_spikes_minibatch()
 
 
+#74119648.0
 
 
 
+#%%
+f_name = f_names[0]
+smr_content = File(f_name)
+smr_content.read_channels()
+voltage_chan = smr_content.get_channel(0)
 
+#     cs_path = '/mnt/data/temp/kaveh/auto_processed/' 
+# cs_path = '../data/auto_processed_spike_sorting/'
+cs_path = '../data/spike_sorted_fixed_minibatch'
+cf = find_file(os.path.split(f_name)[1] + '.pkl', cs_path)
+with open(cf, 'rb') as input:
+    sss = pickle.load(input)
+#sss.voltage = voltage_chan.data
+#sss._align_spikes()
 
+    
+plt.figure(figsize=(15, 5))
+plt.plot(sss.voltage, alpha = 0.5, color = 'r')
+plt.eventplot(sss.spike_indices, alpha = 0.5, linelengths=np.max(sss.voltage)*2, colors='b')
+plt.show()
 
-
-
-
-
-
-
-
-
-
+#%%
+ss_sorted_path = '../data/spike_sorted_temp/'
+for fn in f_names:
+    ss_sorted_fn = find_file(os.path.split(fn)[1] + '.pkl', ss_sorted_path)
+    with open(ss_sorted_fn, 'rb') as input:
+        sss = pickle.load(input)
+        spike_indices = sss.spike_indices
+    with open(os.path.join('../data/spike_sorted_temp/', os.path.basename(fn) + '_ss.pkl'), 'wb') as output:
+        pickle.dump(spike_indices, output, pickle.HIGHEST_PROTOCOL)
+        
+    
+    
 
 
 

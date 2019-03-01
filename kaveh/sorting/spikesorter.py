@@ -31,9 +31,9 @@ class SimpleSpikeSorter:
         self.post_window = 0.005 #s
         self.minibatch_thresh = 50 #s - for spike detection: if signal length more than this, switch to minibatch GMM
         # Complex spike detection parameters:
-        self.freq_range = (0, 5000) #Hz
-        self.cs_num_gmm_components = 2
-        self.cs_cov_type = 'tied'
+        self.freq_range = (0, 3000) #Hz
+        self.cs_num_gmm_components = 3 
+        self.cs_cov_type = 'full'
         self.post_cs_pause_time = 0.010 #s
 
     def run(self):
@@ -50,8 +50,8 @@ class SimpleSpikeSorter:
         print('Align spikes time = {}'.format(time.time() - start))
         self._cluster_spike_waveforms_by_freq()
         print('CS spike detection time = {}'.format(time.time() - start))
-        self._cs_post_process()
-        print('CS post process time = {}'.format(time.time() - start))
+        #self._cs_post_process()
+        #print('CS post process time = {}'.format(time.time() - start))
 
 
     def _pre_process(self):
@@ -168,7 +168,7 @@ class SimpleSpikeSorter:
                     if (i - pre_index) >= 0])
         else:
             signal_size = self.voltage.size
-            self.aligned_spikes = np.array([self.voltage[i - pre_index : i + post_index ] 
+            self.aligned_spikes = np.array([self.voltage[i + pre_index : i + post_index ] 
                 for i in spike_indices if i not in to_exclude if (i + post_index) < signal_size
                     if (i - pre_index) >= 0])
 
@@ -180,7 +180,18 @@ class SimpleSpikeSorter:
         Use the number of components that captures at least captured_variance of the spike waveforms
         """
         return 0
-    
+    def _extract_features(self):
+        from sklearn.decomposition import PCA
+        from sklearn.preprocessing import normalize
+        [_,powers,_] = self._find_max_powers()
+        
+        pca = PCA(n_components = 10)
+        pca.fit(powers)
+        freq_pca = pca.transform(powers)
+        #freq_pca = normalize(time_pca)
+        #print('time pca ', pca.explained_variance_ratio_)
+        return freq_pca
+
     def _find_max_powers(self):
         """
         Finds and returns the maximum power of all aligned spike waveforms in a specified frequency range.
@@ -202,39 +213,44 @@ class SimpleSpikeSorter:
     
     def _find_integral_powers(self):
         """
-        Finds and returns the maximum power of all aligned spike waveforms in a specified frequency range.
+        Finds and returns the integral power of all aligned spike waveforms in a specified frequency range.
         freq_range: a tuple of frequency range boundaries (in Hz)
         """
         powers = [] 
-        max_powers = []
+        integral_powers = []
         for wf in self.aligned_spikes:
             yf = scipy.fftpack.fft(wf)
             N = wf.size
             xf = np.linspace(0.0, 1.0 / (2.0 * self.dt), N/2)
             mask = (xf < self.freq_range[1]) & (xf >= self.freq_range[0])
             power_spectrum = 2.0/N * np.abs(yf[:N//2])
-            max_powers = max_powers + [np.sum(power_spectrum[mask])]
+            integral_powers = integral_powers + [np.sum(power_spectrum[mask])]
             powers.append(power_spectrum[mask])
-        max_powers = np.asarray(max_powers)
+        integral_powers = np.asarray(integral_powers)
         powers = np.array(powers)
-        return max_powers, powers, xf[mask] 
+        return integral_powers, powers, xf[mask] 
 
-    def _cluster_spike_waveforms_by_freq(self, plot_hist = False):
+    def _cluster_spike_waveforms_by_freq(self, feature_mode = 'integral' , plot_hist = False):
         """
         Clusters the found spikes into simple and complex, using a gmm_nc component GMM
         It uses the maximum power in the lower region of the frequency spectrum of the 
         spike waveforms
         """
-        max_powers = self._find_max_powers()[0]
-        gmm = GaussianMixture(self.cs_num_gmm_components, covariance_type = self.cs_cov_type, random_state=0).fit(max_powers.reshape(-1,1))
-        cluster_labels = gmm.predict(max_powers.reshape(-1,1))
-        cluster_labels = cluster_labels.reshape(max_powers.shape)
+        if feature_mode is 'integral':
+            power_feature = self._find_integral_powers()[0]
+        elif feature_mode is 'max':
+            power_feature = self._find_max_powers()[0]
+        else:
+            raise ValueError('feature_mode should be either integral or max')           
+        gmm = GaussianMixture(self.cs_num_gmm_components, covariance_type = self.cs_cov_type, random_state=0).fit(power_feature.reshape(-1,1))
+        cluster_labels = gmm.predict(power_feature.reshape(-1,1))
+        cluster_labels = cluster_labels.reshape(power_feature.shape)
 
         cs_indices = self.get_spike_indices()[cluster_labels == np.argmax(gmm.means_)]
         if plot_hist:
             plt.figure()
             # uniq = np.unique(ss.d_voltage[prang] , return_counts=True)
-            x = np.arange(np.min(max_powers), np.max(max_powers), 1)
+            x = np.arange(np.min(power_feature), np.max(power_feature), 1)
             if self.cs_cov_type == 'tied':
                 gauss_mixt = np.array([p * norm.pdf(x, mu, np.sqrt(gmm.covariances_.flatten())) 
                     for mu, p in zip(gmm.means_.flatten(), gmm.weights_)])
@@ -248,11 +264,26 @@ class SimpleSpikeSorter:
             for i, gmixt in enumerate(gauss_mixt):
                     plt.plot(x, gmixt, label = 'Gaussian '+str(i), color = colors[i])
 
-                    plt.hist(max_powers.reshape(-1,1),bins=256,density=True, color='gray')
+                    plt.hist(power_feature.reshape(-1,1),bins=256,density=True, color='gray')
                     axvlines(plt.gca(), gmm.means_)
                     plt.show()
         self.cs_indices = cs_indices
     
+    def _cluster_spike_by_feature(self):
+        """
+        Clusters the found spikes into simple and complex, using a gmm_nc component GMM
+        It uses the maximum power in the lower region of the frequency spectrum of the 
+        spike waveforms
+        """
+        features = self._extract_features()
+
+        gmm = GaussianMixture(self.cs_num_gmm_components, covariance_type = self.cs_cov_type, random_state=0).fit(features)
+        cluster_labels = gmm.predict(features)
+        #cluster_labels = cluster_labels.reshape(features.shape)
+        
+        cs_indices = self.get_spike_indices()[cluster_labels == np.argmax(np.mean(gmm.means_, axis=1))]
+        self.cs_indices = cs_indices
+   
     def _cs_post_process(self):
         """
         Post processing for complex spikes.
