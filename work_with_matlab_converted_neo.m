@@ -3,7 +3,7 @@ clear all
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B082107/B082107_1340_List.smr.mat') 
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B082207/B082207_1505_List.smr.mat') % % only two events, bs
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B110807/B110807_1632_List.smr.mat')% % only two events, bs
-% load('/home/kkarbasi/dmount/data/david_neurons_mat/B090407/B090407_1526_List.smr.mat') % like the first
+load('/home/kkarbasi/dmount/data/david_neurons_mat/B090407/B090407_1526_List.smr.mat') % like the first
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B091208/B091208_1545_List.smr.mat') % like the first
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B091608/B091608_1208_List.smr.mat') % like the first
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/B091707/B091707_1414_List.smr.mat') % like the first
@@ -42,7 +42,7 @@ clear all
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/F102706/F102706_1435_List.smr.mat') % like the first  
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/F110206/F110206_1400_List.smr.mat') % like the first  
 % load('/home/kkarbasi/dmount/data/david_neurons_mat/F110706/F110706_1413_List.smr.mat') % like the first  
-load('/home/kkarbasi/dmount/data/david_neurons_mat/F112006/F112006_1446_List.smr.mat') % like the first  
+% load('/home/kkarbasi/dmount/data/david_neurons_mat/F112006/F112006_1446_List.smr.mat') % like the first  
 
 %% get all events
 labels = block.segments{1,1}.events{1,end}.labels;
@@ -91,12 +91,9 @@ t_VT = (0 : numel(VT)-1) * ...
     (1.0/block.segments{1,1}.analogsignals{1,4}.sampling_rate) + ...
     block.segments{1,1}.analogsignals{1,4}.t_start;
 
-
-
-
 %% ploting trials
 t_min = 0; %s
-t_max = 100; %s
+t_max = 700; %s
 
 clf
 % t_range = (1+t_min*eye_sampling_rate : t_max*eye_sampling_rate);
@@ -106,16 +103,16 @@ hold on
 plot(t_VT(t_VT > t_min & t_VT <= t_max), VT(t_VT > t_min & t_VT <= t_max), 'LineWidth', 2)
 hold on
 
-plot(t_HE(t_HE > t_min & t_HE <= t_max), HE(t_HE > t_min & t_HE <= t_max), 'LineWidth', 2)
-hold on
-plot(t_VE(t_VE > t_min & t_VE <= t_max), VE(t_VE > t_min & t_VE <= t_max), 'LineWidth', 2)
-hold on
+% plot(t_HE(t_HE > t_min & t_HE <= t_max), HE(t_HE > t_min & t_HE <= t_max), 'LineWidth', 2)
+% hold on
+% plot(t_VE(t_VE > t_min & t_VE <= t_max), VE(t_VE > t_min & t_VE <= t_max), 'LineWidth', 2)
+% hold on
 % 
-event_id = 6;
+event_id = 4;
 vline(event_times{event_id}(event_times{event_id} < t_max & event_times{event_id} > t_min), 'k') % trials
 
 % vline(event_times{4}(event_times{4} < t_max & event_times{4} > t_min), 'y') % trials
-% vline(event_times{5}(event_times{5} < t_max & event_times{5} > t_min), 'y') % primary target jump in adaptation trials
+vline(event_times{5}(event_times{5} < t_max & event_times{5} > t_min), 'g') % primary target jump in adaptation trials
 % vline(sac_o_times, 'g') % saccade onset
 % vline(event_times{6}(event_times{6} < t_max & event_times{6} > t_min), 'g') % corrective target jump
 % plot(event_times{5}(1:50), 7, 'r|')
