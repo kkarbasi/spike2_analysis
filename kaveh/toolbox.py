@@ -41,3 +41,45 @@ def find_file(name, path):
             return os.path.join(root, name)
     if not_found:
         raise ValueError('could not find {} in {}'.format(name, path))
+
+
+def rolling_window(a, window):
+    '''
+    Returns an ndarray with dimensions a.shape+window-1 by window
+    '''
+    shape = a.shape[:-1] + (a.shape[-1] - window + 1, window)
+    strides = a.strides + (a.strides[-1],)
+    return np.lib.stride_tricks.as_strided(a, shape=shape, strides=strides)
+
+
+def find_first(x, start=None, direction='forward', inclusive=True, pattern=[True]):
+    """Finds the first true value in the sequence
+
+    Returns the index of the first True value in the sequence (assuming a binary
+    array, x.
+    :param x: A binary (numpy) array
+    :param start: The index to start looking [0, len(x) - 1]. Default is None
+    :param direction: Forward or backwards (the direction of the search)
+    :param inclusive: Include the start index in the search (defaults to True)
+    :param pattern: The pattern to find, default to true (i.e. the first true)
+    """
+    if not hasattr(pattern, '__iter__'):
+        pattern = [pattern]
+
+    pattern = np.array(pattern)
+    x = np.array(x)
+
+    pattern_length = len(pattern)
+    if direction == 'forward' or direction == 'forwards' or direction is True:
+        if start is None:
+            start = 0
+        for i in range(start, len(x) - pattern_length + 1):
+            if (x[i] == pattern[0]) and ((i == start and inclusive is True) or (i != start)) and np.all(x[i:i+pattern_length] == pattern):
+                return i
+    else:
+        if start is None:
+            start = len(x) - 1
+        for i in range(start, -1 + pattern_length - 1, -1):
+            if (x[i] == pattern[-1]) and ((i == start and inclusive is True) or (i != start)) and np.all(x[i-pattern_length+1:i+1] == pattern):
+                return i
+    return None  # Not found
