@@ -26,6 +26,22 @@ class session:
         self.dt = eye_dt
 
 
+    @property
+    def saccade_onset_times(self):
+        return self.t_VE[self.saccade_onsets]
+
+    @property
+    def saccade_offset_times(self):
+        return self.t_VE[self.saccade_offsets]
+
+    @property
+    def target_onset_times(self):
+        return self.t_VT[self.target_onsets]
+
+    @property
+    def target_offset_times(self):
+        return self.t_VT[self.target_offsets]
+
     def _calc_target_velocity(self):
         VT_v_filtered = savgol_filter(np.squeeze(self.VT), window_length=15, polyorder=2, deriv=1, delta = self.dt)
         HT_v_filtered = savgol_filter(np.squeeze(self.HT), window_length=15, polyorder=2, deriv=1, delta = self.dt)
@@ -147,21 +163,21 @@ class session:
         self.saccade_onsets = np.delete(self.saccade_onsets, to_delete)
         self.saccade_offsets = np.delete(self.saccade_offsets, to_delete) 
 
-    @property
-    def saccade_onset_times(self):
-        return self.t_VE[self.saccade_onsets]
+    def _calc_error_vectors(self):
+        
+        sof_VE = np.squeeze(self.VE[self.saccade_offsets])
+        sof_HE = np.squeeze(self.HE[self.saccade_offsets])
+        sof_VT = np.squeeze(self.VT[self.saccade_offsets])
+        sof_HT = np.squeeze(self.HT[self.saccade_offsets])
 
-    @property
-    def saccade_offset_times(self):
-        return self.t_VE[self.saccade_offsets]
+        errV = sof_VT - sof_VE
+        errH = sof_HT - sof_HE
 
-    @property
-    def target_onset_times(self):
-        return self.t_VT[self.target_onsets]
-
-    @property
-    def target_offset_times(self):
-        return self.t_VT[self.target_offsets]
-
-
-
+        self.error_mag = np.linalg.norm(np.vstack((errH, errV)), axis = 0)
+        self.error_dir = np.arctan2(errV, errH) * 180 / np.pi
+    
+    def bin_error_dirs(self):
+        bins = np.arange(-180 + 22.5, 180, 45)
+        bin_ind = np.digitize(self.error_dir , bins, right=True)
+        bin_ind[bin_ind == 8] = 0
+        return bin_ind
