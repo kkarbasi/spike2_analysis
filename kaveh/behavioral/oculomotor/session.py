@@ -42,6 +42,26 @@ class session:
     def target_offset_times(self):
         return self.t_VT[self.target_offsets]
 
+    def _cut_to_min_size(self):
+        HT_size = self.HT.size
+        VT_size = self.VT.size
+        HE_size = self.HE.size
+        VE_size = self.VE.size
+
+        
+        size_min = np.min([HT_size, VT_size, HE_size, VE_size])
+        self.HT = self.HT[0:size_min]
+        self.t_HT = self.t_HT[0:size_min]
+        self.VT = self.VT[0:size_min]
+        self.t_VT = self.t_VT[0:size_min]
+        self.HE = self.HE[0:size_min]
+        self.t_HE = self.t_HE[0:size_min]
+        self.VE = self.VE[0:size_min]
+        self.t_VE = self.t_VE[0:size_min]
+        
+
+
+
     def _calc_target_velocity(self):
         VT_v_filtered = savgol_filter(np.squeeze(self.VT), window_length=15, polyorder=2, deriv=1, delta = self.dt)
         HT_v_filtered = savgol_filter(np.squeeze(self.HT), window_length=15, polyorder=2, deriv=1, delta = self.dt)
@@ -148,6 +168,8 @@ class session:
             peaks = find_peaks(self.E_v_filtered[son:soff], prominence=1)[0]
             if (np.size(peaks) > 3):
                 to_delete.append(i)            
+        self.multipeak_saccade_onsets = self.saccade_onset_times[to_delete]
+        self.multpeak_saccade_offsets = self.saccade_offset_times[to_delete]
         self.saccade_onsets = np.delete(self.saccade_onsets, to_delete)
         self.saccade_offsets = np.delete(self.saccade_offsets, to_delete)
 
@@ -164,6 +186,9 @@ class session:
         self.saccade_offsets = np.delete(self.saccade_offsets, to_delete) 
 
     def _calc_error_vectors(self):
+        '''
+        Calculate error at the end of each saccade
+        '''
         
         sof_VE = np.squeeze(self.VE[self.saccade_offsets])
         sof_HE = np.squeeze(self.HE[self.saccade_offsets])
@@ -172,12 +197,28 @@ class session:
 
         errV = sof_VT - sof_VE
         errH = sof_HT - sof_HE
-
+        
+        # Calculate error direction and magnitude. Error vector is from eye location to the target location
         self.error_mag = np.linalg.norm(np.vstack((errH, errV)), axis = 0)
         self.error_dir = np.arctan2(errV, errH) * 180 / np.pi
     
     def bin_error_dirs(self):
+        '''
+        Bin error directions: Bins start from 157.5 and increaments counter-clockwise every 45 degrees => 8 bins, 0 to 7
+        '''
         bins = np.arange(-180 + 22.5, 180, 45)
         bin_ind = np.digitize(self.error_dir , bins, right=True)
         bin_ind[bin_ind == 8] = 0
         return bin_ind
+
+    def bin_error_mags(self):
+        '''
+        Bin error magnitudes
+        '''
+        bins = np.arange(0, np.max(self.error_mag), 2)
+        bin_ind = np.digitize(self.error_mag , bins)
+        return bin_ind
+
+   
+
+
