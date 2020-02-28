@@ -101,9 +101,12 @@ class session:
             self.target_onsets.append(find_first(below_onset_offset_thresh, start = si, direction = 'backward', pattern = pattern))
             self.target_offsets.append(find_first(below_onset_offset_thresh, start = si, direction = 'forward', pattern = pattern))
 
+        nones = [i for i,x in enumerate(self.target_onsets) if x is None]
+        nones = nones + [i for i,x in enumerate(self.target_offsets) if x is None]
+        self.target_onsets = [x for i,x in enumerate(self.target_onsets) if i not in nones]
+        self.target_offsets = [x for i,x in enumerate(self.target_offsets) if i not in nones]
         self.target_onsets = np.unique(np.array(self.target_onsets))
         self.target_offsets = np.unique(np.array(self.target_offsets))
-
         # Here we delete the targets that have more than 1 prominent peaks ( with peak height = 20)
         to_delete = []
         for i, (son, soff) in enumerate(zip(self.target_onsets, self.target_offsets)):
@@ -156,7 +159,10 @@ class session:
         for si in saccade_indices:
             self.saccade_onsets.append(find_first(below_onset_offset_thresh, start = si, direction = 'backward', pattern = pattern))
             self.saccade_offsets.append(find_first(below_onset_offset_thresh, start = si, direction = 'forward', pattern = pattern))
-
+        nones = [i for i,x in enumerate(self.saccade_onsets) if x is None]
+        nones = nones + [i for i,x in enumerate(self.saccade_offsets) if x is None]
+        self.saccade_onsets = [x for i,x in enumerate(self.saccade_onsets) if i not in nones]
+        self.saccade_offsets = [x for i,x in enumerate(self.saccade_offsets) if i not in nones]
         self.saccade_onsets = np.unique(np.array(self.saccade_onsets))
         self.saccade_offsets = np.unique(np.array(self.saccade_offsets))
         # Here we delete the saccades that have more than 1 prominent peaks ( with peak height = 20)
